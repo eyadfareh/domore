@@ -51,10 +51,10 @@ function jsDev(){
 }
 function htmlDev(){
 	return src(config.paths.src.pugCompile)
-		.pipe(cache("html"))
 		.pipe(pug({
 			pretty: true // DEPRECATED 
 		}))
+		.pipe(cache("html"))
 		.pipe(dest(config.paths.dev + "pages"));
 }
 function cssDev(){
