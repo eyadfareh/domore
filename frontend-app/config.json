@@ -1,0 +1,14 @@
+{
+  "port": 4050,
+  "paths":{
+      "src":{
+        "imgs":"./src/public/**/*.{jpg,jpeg,png,svg,ico,gif}", 
+        "css": "./src/public/**/*.css",
+        "js":"./src/public/**/*.js",
+        "pugCompile": "./src/pages/**/*.pug",
+        "pugWatch": "./src/**/*.pug"
+      },
+      "dist":"./dist/",
+      "dev": "./dev/"
+  }
+}
